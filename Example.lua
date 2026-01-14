@@ -1,12 +1,3 @@
---[[
-    Fifulent UI Library - Example Script
-    
-    In a production environment, you would load the library via:
-    local Library = loadstring(game:HttpGet("YOUR_GITHUB_RAW_LINK"))()
-    
-    For local testing, ensure 'Library.lua' is accessible.
-]]
-
 local Library
 if script and script.Parent and script.Parent:FindFirstChild("Library") then
     Library = require(script.Parent.Library)
